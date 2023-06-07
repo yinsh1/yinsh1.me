@@ -1,5 +1,5 @@
 // uno.config.ts
-import { defineConfig, presetUno, presetIcons } from 'unocss'
+import { defineConfig, presetUno, presetIcons, presetTypography, transformerDirectives } from 'unocss'
 
 export default defineConfig({
   presets: [
@@ -7,8 +7,15 @@ export default defineConfig({
     presetIcons({
       prefix: 'i-',
       extraProperties: {
-        display: 'inline-block'
+        display: 'inline-block',
+        height: '1.2em',
+        width: '1.2em',
+        'vertical-align': 'text-bottom',
       }
     }),
+    presetTypography()
+  ],
+  transformers: [
+    transformerDirectives(),
   ],
 })
