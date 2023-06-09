@@ -1,6 +1,6 @@
 <template>
   <a @click="toggleColorMode" class="select-none">
-    <div class="i-carbon-sun dark:i-carbon-moon"></div>
+    <div class="carbon-sun dark:carbon-moon"></div>
   </a>
 </template>
 

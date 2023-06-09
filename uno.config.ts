@@ -5,7 +5,7 @@ export default defineConfig({
   presets: [
     presetUno(),
     presetIcons({
-      prefix: 'i-',
+      prefix: '',
       extraProperties: {
         display: 'inline-block',
         height: '1.2em',
