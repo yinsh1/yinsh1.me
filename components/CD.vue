@@ -1,7 +1,7 @@
 <template>
   <div class="prose mx-auto">
     <br />
-    <span class="carbon:chevron-right opacity-50 text-[14px] mr-2 -ml-1"></span>
+    <span class="carbon:chevron-right opacity-50 text-[14px] mr-1 -ml-1"></span>
     <NuxtLink :to="path" class="opacity-75 hover:opacity-100">cd ..</NuxtLink>
   </div>
 </template>
