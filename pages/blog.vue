@@ -1,7 +1,7 @@
 <template>
   <main class="p-10">
-    <div class="prose mx-auto">
-      <ContentList path="/blogs" v-slot="{ list }">
+    <div class="prose mx-auto flex flex-col gap-3">
+      <ContentList path="/blog" v-slot="{ list }">
         <div
           v-for="blog in list"
           :key="blog._path"

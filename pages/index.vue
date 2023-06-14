@@ -12,10 +12,10 @@
           </div>
         </div>
       </div>
-      <div class="mt-[20vh] text-[13px] bg-black">
+      <div class="mt-[20vh] text-[13px]">
         <div v-for="i in 10" :key="i" class="flex">
           <div v-for="j in 39" :key="j">
-            <div class="carbon:construction" :class="['cursor-pointer', charPos.includes(`${i},${j}`) ? 'text-rose' : '']"></div>
+            <div class="carbon:construction" :class="[charPos.includes(`${i},${j}`) ? 'text-rose' : '']"></div>
           </div>
         </div>
       </div>

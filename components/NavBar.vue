@@ -1,6 +1,6 @@
 <template>
   <header class="p-4 flex justify-between">
-    <NuxtLink to="/">YinSh1</NuxtLink>
+    <NuxtLink to="/" class="simple-icons:steam w-[24px] h-[24px]"></NuxtLink>
     <nav class="nav">
       <div class="flex items-center gap-4">
         <NuxtLink v-for="route in routes" :key="route.name" :to="route.path">{{ route.name }}</NuxtLink>
