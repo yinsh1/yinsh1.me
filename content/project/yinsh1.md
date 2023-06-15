@@ -1,6 +1,6 @@
 ---
-title: Yinsh1.me
-description: blogasdkd dka;dk q asdkaa;lsd da adqwdlkxck adq
+title: yinsh1.me
+description: a blog system built using nuxt and nuxt-content, inspired by antfu.
 icon: simple-icons:steam
-link: 'www.baidu.com'
+link: 'https://github.com/yinsh1/yinsh1.me'
 ---

@@ -1,7 +1,7 @@
 <template>
   <main class="p-10">
     <div class="prose mx-auto">
-      <div class="flex items-start">
+      <article class="flex items-start">
         <img src="asuka.jpg" alt="霒蚀" class="avatar" />
         <div class="flex flex-col ml-8 flex-1">
           <h1 class="name">霒蚀Yinsh1</h1>
@@ -11,7 +11,7 @@
             <a href="https://space.bilibili.com/7181347" class="simple-icons:bilibili"></a>
           </div>
         </div>
-      </div>
+      </article>
       <div class="mt-[20vh] text-[13px]">
         <div v-for="i in 10" :key="i" class="flex">
           <div v-for="j in 39" :key="j">

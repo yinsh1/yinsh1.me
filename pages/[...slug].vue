@@ -1,8 +1,9 @@
 <template>
   <main>
-    <article>
-      <div class="prose mx-auto"><ContentDoc /></div>
-    </article>
+    <div class="prose mx-auto">
+      <article><ContentDoc /></article>
+    </div>
+
     <CD />
   </main>
 </template>
