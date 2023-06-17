@@ -19,6 +19,7 @@
     </div>
 
     <CD />
+    <Copyright />
   </main>
 </template>
 
