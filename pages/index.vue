@@ -2,7 +2,7 @@
   <main class="p-10">
     <div class="prose mx-auto">
       <article class="flex items-start">
-        <img src="asuka.jpg" alt="霒蚀" class="avatar" />
+        <img src="@/assets/images/asuka.jpg" alt="霒蚀" class="avatar" />
         <div class="flex flex-col ml-8 flex-1">
           <h1 class="name">霒蚀Yinsh1</h1>
           <div class="my-3">Frontend Developer</div>
